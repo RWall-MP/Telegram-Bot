@@ -1,6 +1,6 @@
 import telebot.types
 from configs import TOKEN, keys
-from utils import Converter, ConvertionException
+from extensions import Converter, ConvertionException
 
 bot = telebot.TeleBot(TOKEN)
 
